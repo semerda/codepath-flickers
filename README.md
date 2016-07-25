@@ -37,16 +37,16 @@ The following **additional** features are implemented:
 * [x] Search movie database from the ActionBar
 * [x] ActionBar auto hides when scrolling
 * [x] Using Constants class to store API keys
-* [x] [Endless Scrolling with AdapterViews] (https://github.com/codepath/android_guides/wiki/Endless-Scrolling-with-AdapterViews-and-RecyclerView)
+* [x] [Endless Scrolling with AdapterViews](https://github.com/codepath/android_guides/wiki/Endless-Scrolling-with-AdapterViews-and-RecyclerView)
 * [x] Detail view uses RatingBar and ProgressBar to illustrate the value
 * [x] Genres displayed using dynamic string identifiers to pull in the name from string resources
-* [x] Used CardView for cells
+* [x] [Using the CardView](https://github.com/codepath/android_guides/wiki/Using-the-CardView) for cells
 * [x] Added ScrollView for RelativeLayout in DetailActivity
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/semerda/codepath-flickers/blob/master/misc/flickster-anim.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
