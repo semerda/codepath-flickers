@@ -26,6 +26,7 @@
     <!-- detail activity -->
     <string name="blockbuster">Blockbuster!</string>
     <string name="popularity_index">popularity index</string>
+    <string name="more_info">More Info</string>
 
     <!-- movie genres -->
     <!-- source: https://api.themoviedb.org/3/genre/movie/list?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed -->

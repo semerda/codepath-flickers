@@ -38,7 +38,6 @@ public class MovieArrayAdapter extends ArrayAdapter<Movie> {
         ImageView ivImage;
         TextView tvTitle;
         TextView tvOverview;
-        //RatingBar rbVoteAverage;
     }
 
     public MovieArrayAdapter(Context context, List<Movie> movies) {
@@ -94,7 +93,6 @@ public class MovieArrayAdapter extends ArrayAdapter<Movie> {
             convertView = inflater.inflate(R.layout.item_movie, parent, false);
 
             viewHolder.ivImage = (ImageView) convertView.findViewById(R.id.ivMovieImage);
-            //viewHolder.rbVoteAverage = (RatingBar) convertView.findViewById(R.id.rbVoteAverage);
 
             if (type == ViewTypes.DEFAULT.ordinal()) {
                 viewHolder.tvTitle = (TextView) convertView.findViewById(R.id.tvTitle);
@@ -107,7 +105,6 @@ public class MovieArrayAdapter extends ArrayAdapter<Movie> {
         }
 
         // Populate data
-        //viewHolder.rbVoteAverage.setRating(movie.getVoteAverage());
         if (type == ViewTypes.DEFAULT.ordinal()) {
             viewHolder.tvTitle.setText(movie.getOriginalTitle());
             viewHolder.tvOverview.setText(movie.getOverview());

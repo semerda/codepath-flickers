@@ -74,7 +74,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="More Info"
+                android:text="@string/more_info"
                 android:id="@+id/btnMoreInfo"
                 android:onClick="onClickMoreInfo"
                 android:layout_alignBottom="@+id/frameLayoutImage"

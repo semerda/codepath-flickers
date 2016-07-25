@@ -39,6 +39,9 @@ The following **additional** features are implemented:
 * [x] Using Constants class to store API keys
 * [x] [Endless Scrolling with AdapterViews] (https://github.com/codepath/android_guides/wiki/Endless-Scrolling-with-AdapterViews-and-RecyclerView)
 * [x] Detail view uses RatingBar and ProgressBar to illustrate the value
+* [x] Genres displayed using dynamic string identifiers to pull in the name from string resources
+* [x] Used CardView for cells
+* [x] Added ScrollView for RelativeLayout in DetailActivity
 
 ## Video Walkthrough
 
